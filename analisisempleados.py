@@ -25,10 +25,12 @@ archivoTEXTO.write(archivoHTML)
 archivoTEXTO.close()
 
 '''
-
+'''
 tablasalario=tablaEmpleados[(tablaEmpleados["salario"]>=5000000) & (tablaEmpleados["edad"]<=30)].head(50)
 archivoHTML=tablasalario.to_html()
 
 archivoTEXTO=open("tablasalario.html","w")
 archivoTEXTO.write(archivoHTML)
 archivoTEXTO.close()
+'''
+

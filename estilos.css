@@ -11,3 +11,11 @@
     background-size: cover;
     padding:10% 20% 20% 30%;
 }
+
+.map iframe{
+ left:0;
+ top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
